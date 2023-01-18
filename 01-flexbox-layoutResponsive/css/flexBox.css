@@ -57,6 +57,21 @@
     display: none;
 }
 
+/*VIDEO*/
+
+.videos__container{
+    display: flex;
+    flex-flow: row wrap;
+    gap:10px;
+    /* justify-content: space-around;
+     */
+}
+
+.videos__item{
+    height: 303px;
+    width: 280px;
+    flex-grow: 1;
+}
 
 /* TABLET */
 @media(min-width:834px) {
