@@ -100,4 +100,40 @@ nav ul li a:hover {
 #cupom .texto h2 {
   margin: 2rem;
   font-size: 1.5rem;
+}
+#cupom .input {
+  margin: 0 auto;
+  width: 575px;
+  border-radius: 4px solid white;
+  border: 4px solid white;
+  background-color: white;
+  border-radius: 20px;
+}
+#cupom .input input {
+  height: 40px;
+  border: 1px white;
+  width: 540px;
+  outline: none;
+  font-size: 20px;
+}
+#cupom .input:hover, #cupom .input:focus-within {
+  box-shadow: 1px 1px 8px 1px #11009E;
+  outline: none;
+}
+#cupom button {
+  text-transform: uppercase;
+  margin-top: 0.75rem;
+  outline: none;
+  height: 40px;
+  text-align: center;
+  width: 130px;
+  background-color: #4942E4;
+  border: 2px #11009E;
+  border-radius: 40px;
+  color: #8696FE;
+  cursor: pointer;
+}
+#cupom button:hover {
+  color: #11009E;
+  border-color: #8696FE;
 }/*# sourceMappingURL=style.css.map */
